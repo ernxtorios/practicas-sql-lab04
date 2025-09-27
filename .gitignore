@@ -1,0 +1,49 @@
+# Build artifacts
+bin/
+obj/
+*.dacpac
+*.publish.xml
+*.sqlproj.user
+*.sqlproj.vspscc
+*.bak
+*.mdf
+*.ldf
+*.sdf
+
+# Database deployment scripts and reports
+# These are often generated during publishing and can be recreated
+# so they don't need to be tracked in source control.
+PublishProfile/
+Sql/
+Reports/
+*.log
+
+# Local settings and user-specific files
+*.suo
+*.user
+*.vspscc
+*.vssscc
+*.builds.log
+*.sqllog
+*.ssmssln
+*.ssmssqlproj
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*~
+
+# Operating system and editor specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+.vs/
+
+# Sensitive data (if applicable, e.g., local connection strings)
+# Ensure these are not committed, and use secure configuration management
+# for production environments.
+appsettings.Development.json
+connectionstrings.config
