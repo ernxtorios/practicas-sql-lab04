@@ -1,4 +1,4 @@
 *.sql linguist-language=SQL
 *.sql linguist-detectable=true
-lab04/*.sql linguist-language=SQL
-lab04/*.sql linguist-detectable=true
+postgresql-challenge-platzi/*.sql linguist-language=SQL
+postgresql-challenge-platzi/*.sql linguist-detectable=true
